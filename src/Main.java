@@ -10,6 +10,9 @@ public class Main {
         System.out.println(mieszkanie1.getCity());
         mieszkanie1.setFloor(44);
         System.out.println(mieszkanie1.getFloor());
+        Flat mieszkanie2= new Flat(3,"katowice",true);
+        mieszkanie2.setFloor(1);
+        System.out.println(mieszkanie2.getFloor());
     }
 
 }
