@@ -6,6 +6,10 @@ public class Main {
         System.out.println(mieszkanie1.getBalcony());
         mieszkanie1.setBalcony(false);
         System.out.println(mieszkanie1.getBalcony());
+        mieszkanie1.setCity("Gdynia");
+        System.out.println(mieszkanie1.getCity());
+        mieszkanie1.setFloor(44);
+        System.out.println(mieszkanie1.getFloor());
     }
 
 }
